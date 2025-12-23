@@ -1,0 +1,32 @@
+═══════════════════════════════════════════════════════════════
+  CÓMO CAMBIAR LOS PERFILES DE REDES SOCIALES
+═══════════════════════════════════════════════════════════════
+
+Para cambiar los perfiles de Facebook e Instagram, solo necesitas 
+editar el archivo .env y cambiar el nombre de usuario.
+
+PASOS:
+1. Abre el archivo .env en la raíz del proyecto
+2. Busca estas líneas:
+
+   SOCIAL_FACEBOOK_URL=https://m.me/foursquareremodelingllc
+   SOCIAL_INSTAGRAM_URL=https://www.instagram.com/foursquare.remodel
+
+3. Reemplaza "foursquareremodeling" con tu nombre de usuario real
+
+EJEMPLOS:
+
+Si tu usuario de Facebook es "miempresa123":
+   SOCIAL_FACEBOOK_URL=https://m.me/miempresa123
+
+Si tu usuario de Instagram es "mi_empresa_remodeling":
+   SOCIAL_INSTAGRAM_URL=https://www.instagram.com/mi_empresa_remodeling
+
+NOTAS:
+- Para Facebook Messenger, usa: https://m.me/TU_USUARIO
+- Para Instagram, usa: https://www.instagram.com/TU_USUARIO
+- No necesitas reiniciar el servidor, los cambios se aplican automáticamente
+- Los iconos aparecerán en el footer de todas las páginas
+
+═══════════════════════════════════════════════════════════════
+
